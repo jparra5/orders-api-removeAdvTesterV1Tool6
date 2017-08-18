@@ -70,5 +70,6 @@ describe('OrdersAPI(' + desired.browserName + ')', function() {
             .title()
             .should.become("Orders RESTful API")
             .nodeify(done);
+        woot();        
     });
 });
